@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WaesApi.Utils
 {
-    public class CustomDiffResultItem
+    public struct CustomDiffResultItem
     {
         public CustomDiffResultItem(int startPosition, int length)
         {
@@ -33,6 +33,7 @@ namespace WaesApi.Utils
     {
         public override string ToString()
         {
+            // Strings are immutable. Stringbuilder FTW
             StringBuilder builder = new StringBuilder();
             ForEach((item) =>
             {
@@ -78,14 +79,14 @@ namespace WaesApi.Utils
             else
             {
                 result.Result = "The compared strings have the same size but the content is different";
-                result.Differences = calculateSameSizeDifferences();
+                result.Differences = CalculateSameSizeDifferences();
             }
 
             return result;
 
         }
 
-        List<CustomDiffResultItem> calculateSameSizeDifferences()
+        List<CustomDiffResultItem> CalculateSameSizeDifferences()
         {
             List<CustomDiffResultItem> differences = new List<CustomDiffResultItem>();
 
