@@ -1,0 +1,16 @@
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.Tests.deps.json
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.Tests.runtimeconfig.json
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.Tests.runtimeconfig.dev.json
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.Tests.dll
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.Tests.pdb
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.dll
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/bin/Debug/netcoreapp2.0/WaesApi.pdb
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj/Debug/netcoreapp2.0/WaesApi.Tests.csprojResolveAssemblyReference.cache
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj/Debug/netcoreapp2.0/WaesApi.Tests.csproj.CoreCompileInputs.cache
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj/Debug/netcoreapp2.0/WaesApi.Tests.AssemblyInfoInputs.cache
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj/Debug/netcoreapp2.0/WaesApi.Tests.AssemblyInfo.cs
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj/Debug/netcoreapp2.0/WaesApi.Tests.dll
+/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj/Debug/netcoreapp2.0/WaesApi.Tests.pdb

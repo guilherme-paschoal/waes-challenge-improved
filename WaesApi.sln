@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaesApi", "WaesApi\WaesApi.csproj", "{129B6D62-65AD-4924-A97B-2CDA3641AAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaesApi.Tests", "WaesApi.Tests\WaesApi.Tests.csproj", "{0D1F8EDA-6DF7-4E81-95E3-FB43C83295FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{129B6D62-65AD-4924-A97B-2CDA3641AAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129B6D62-65AD-4924-A97B-2CDA3641AAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129B6D62-65AD-4924-A97B-2CDA3641AAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129B6D62-65AD-4924-A97B-2CDA3641AAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1F8EDA-6DF7-4E81-95E3-FB43C83295FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1F8EDA-6DF7-4E81-95E3-FB43C83295FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1F8EDA-6DF7-4E81-95E3-FB43C83295FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1F8EDA-6DF7-4E81-95E3-FB43C83295FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
