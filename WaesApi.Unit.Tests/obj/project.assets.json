@@ -13663,11 +13663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/WaesApi.Tests.csproj",
-      "projectName": "WaesApi.Tests",
-      "projectPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/WaesApi.Tests.csproj",
+      "projectUniqueName": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Unit.Tests/WaesApi.Unit.Tests.csproj",
+      "projectName": "WaesApi.Unit.Tests",
+      "projectPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Unit.Tests/WaesApi.Unit.Tests.csproj",
       "packagesPath": "/Users/guilherme/.nuget/packages/",
-      "outputPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Tests/obj",
+      "outputPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Unit.Tests/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

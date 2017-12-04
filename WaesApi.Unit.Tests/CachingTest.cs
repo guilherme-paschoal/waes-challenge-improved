@@ -2,7 +2,7 @@
 using Xunit;
 using WaesApi.Utils;
 
-namespace WaesApi.Tests
+namespace WaesApi.Unit.Tests
 {
     public class CachingTest
     {

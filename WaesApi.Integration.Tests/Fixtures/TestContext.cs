@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 
-namespace WaesApi.Integration.Tests
+namespace WaesApi.Integration.Tests.Fixtures
 {
-    [CollectionDefinition("SystemCollection")]
-    public class Collection : ICollectionFixture<TestContext>
+    
+    public class TestContext : IDisposable
     {
-    }
-
-    public class TestContext
-    {
-        TestServer _server;
+        TestServer server;
         public HttpClient Client { get; private set; }
 
         public TestContext()
@@ -22,10 +19,19 @@ namespace WaesApi.Integration.Tests
 
         private void SetUpClient()
         {
-            _server = new TestServer(new WebHostBuilder()
+            server = new TestServer(new WebHostBuilder()
                 .UseStartup<Startup>());
 
-            Client = _server.CreateClient();
+            Client = server.CreateClient();
+
+            Client.DefaultRequestHeaders.Accept.Clear();
+            Client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+        }
+
+        public void Dispose() {
+            server?.Dispose();
+            Client?.Dispose();
         }
     }
 }

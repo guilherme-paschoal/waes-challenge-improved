@@ -1,10 +1,8 @@
-﻿using System;
+﻿using Xunit;
 namespace WaesApi.Integration.Tests.Fixtures
 {
-    public class Collection
+    [CollectionDefinition("SystemCollection")]
+    public class Collection : ICollectionFixture<TestContext>
     {
-        public Collection()
-        {
-        }
     }
 }

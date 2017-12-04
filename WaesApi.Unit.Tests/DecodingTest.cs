@@ -3,7 +3,7 @@ using System.Text;
 using Xunit;
 using WaesApi.Utils;
 
-namespace WaesApi.Tests
+namespace WaesApi.Unit.Tests
 {
     public class DecodingTest
     {

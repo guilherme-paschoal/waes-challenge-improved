@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using WaesApi.Utils;
 using Xunit;
 
-namespace WaesApi.Tests
+namespace WaesApi.Unit.Tests
 {
     // Since CustomDiff classes are interdependent but very simple and they are stored in the same class file, I wanted to keep the tests under the same idea
 
@@ -37,6 +37,7 @@ namespace WaesApi.Tests
         {
             var customDiffResult = new CustomDiffResult
             {
+                //Improve: Mock CustomDiffResultItem?
                 Differences = new List<CustomDiffResultItem> { new CustomDiffResultItem(0, 1) }
             };
 
@@ -54,6 +55,7 @@ namespace WaesApi.Tests
             // First asserts when Differences list hasn't been initialized/is null
             Assert.False(customDiffResult.HasDifferences);
 
+            //Improve: Mock CustomDiffResultItem?
             customDiffResult.Differences = new List<CustomDiffResultItem>();
 
             // Then when it has been initialized but is empty
