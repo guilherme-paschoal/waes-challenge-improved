@@ -2,15 +2,14 @@
   <MonoDevelop.Ide.ItemProperties.WaesApi PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="WaesApi/Controllers/DiffController.cs">
     <Files>
-      <File FileName="WaesApi/Controllers/DiffController.cs" Line="52" Column="51" />
+      <File FileName="WaesApi/Controllers/DiffController.cs" Line="60" Column="44" />
       <File FileName="WaesApi/Repositories/IDiffRepository.cs" Line="9" Column="25" />
+      <File FileName="WaesApi/Repositories/DiffRepository.cs" Line="33" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/Controllers/DiffController.cs" relfile="WaesApi/Controllers/DiffController.cs" line="51" column="33" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
