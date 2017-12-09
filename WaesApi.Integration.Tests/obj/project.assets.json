@@ -1680,7 +1680,7 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/2.0.0": {
+      "Microsoft.EntityFrameworkCore/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Caching.Memory": "2.0.0",
@@ -1711,10 +1711,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.InMemory/2.0.0": {
+      "Microsoft.EntityFrameworkCore.InMemory/2.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.0.0"
+          "Microsoft.EntityFrameworkCore": "2.0.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
@@ -5256,7 +5256,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Microsoft.AspNetCore.All": "2.0.0"
+          "Microsoft.AspNetCore.All": "2.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.0.1"
         },
         "compile": {
           "bin/placeholder/WaesApi.dll": {}
@@ -6596,14 +6597,14 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/2.0.0": {
-      "sha512": "wmgBEpjoxd6ElVh13dlzmsl/9BtE5lky97vutJxLwFopP0IuWAyclCC2WHoXq4bYRmtzYSpmA4Q/kNugynswSA==",
+    "Microsoft.EntityFrameworkCore/2.0.1": {
+      "sha512": "RlwInZHfIUWwFgQJCpUMKrLeE8QJ64MA/GxD881oTMFa9j7iiGKCtI0xK4J1NNgRKvgVDPJbh9CIGJiu0KEdeA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.0.0",
+      "path": "microsoft.entityframeworkcore/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
@@ -6620,14 +6621,14 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.InMemory/2.0.0": {
-      "sha512": "0r7IGTY4ATytOEiuUhL8qQALJtkm17OygtPDGYFweXLju1VN4yMjaNRzM/EwE1qFnlDMqA549AgQ6k9caLrfVQ==",
+    "Microsoft.EntityFrameworkCore.InMemory/2.0.1": {
+      "sha512": "PIkjqb3gqli8d86OX2HeQpPv5vGXareCuf2IBrVf1+GoIyveZlwLSmsRtqgR3yXPbdeDZzqjCq4X/BDocvYrPg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.inmemory/2.0.0",
+      "path": "microsoft.entityframeworkcore.inmemory/2.0.1",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
-        "microsoft.entityframeworkcore.inmemory.2.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.2.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
@@ -13687,11 +13688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Integration.Tests/WaesApi.Integration.Tests.csproj",
+      "projectUniqueName": "/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi.Integration.Tests/WaesApi.Integration.Tests.csproj",
       "projectName": "WaesApi.Integration.Tests",
-      "projectPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Integration.Tests/WaesApi.Integration.Tests.csproj",
+      "projectPath": "/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi.Integration.Tests/WaesApi.Integration.Tests.csproj",
       "packagesPath": "/Users/guilherme/.nuget/packages/",
-      "outputPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi.Integration.Tests/obj",
+      "outputPath": "/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi.Integration.Tests/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -13708,8 +13709,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi/WaesApi.csproj": {
-              "projectPath": "/Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi/WaesApi.csproj"
+            "/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/WaesApi.csproj": {
+              "projectPath": "/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/WaesApi.csproj"
             }
           }
         }

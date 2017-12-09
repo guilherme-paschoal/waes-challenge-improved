@@ -9,3 +9,14 @@
 /Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.AssemblyInfo.cs
 /Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.dll
 /Users/guilherme/dev/challenges/WAES/WaesAPI/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.pdb
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.csprojResolveAssemblyReference.cache
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.csproj.CoreCompileInputs.cache
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.AssemblyInfoInputs.cache
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.AssemblyInfo.cs
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.dll
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/obj/Debug/netcoreapp2.0/WaesApi.pdb
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/bin/Debug/netcoreapp2.0/WaesApi.deps.json
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/bin/Debug/netcoreapp2.0/WaesApi.runtimeconfig.json
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/bin/Debug/netcoreapp2.0/WaesApi.runtimeconfig.dev.json
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/bin/Debug/netcoreapp2.0/WaesApi.dll
+/Users/guilherme/dev/challenges/WAES/waes-challenge-improved/WaesApi/bin/Debug/netcoreapp2.0/WaesApi.pdb

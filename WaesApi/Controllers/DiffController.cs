@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WaesApi.Data;
+using WaesApi.Repositories;
 using WaesApi.Utils;
 using WaesApi.Views;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -8,6 +10,14 @@ namespace WaesApi.Controllers
     [Route("v1/[controller]")]
     public class DiffController : Controller
     {
+        readonly IDiffRepository repository;
+
+        public DiffController(IDiffRepository contentRepository)
+        {
+            repository = contentRepository;
+        }
+
+
         /// <summary>
         /// Route for handling input of values that will be diff'ed. Call either /left or /right. 
         /// </summary>
@@ -16,12 +26,12 @@ namespace WaesApi.Controllers
         /// <param name="direction">The direction is defined by the route called</param>
         /// <param name="input">The string to be diffed</param>
         [HttpPost("{id}/{direction}")]
-        public IActionResult Input(int id, CacheDirection? direction, [FromBody]string input)
+        public IActionResult Input(int id, string direction, [FromBody]string input)
         {
             // By making the enum nullable, the binder will return a 404 when neither of the enum values is passed
 
             string decodedJson = DecodingHelper.Decode(input.ToString());
-            CachingHelper.Add(id, decodedJson, direction.Value);
+            repository.Add(new Diff { DiffId = id, Direction = direction, Value = input});
             return Ok();
         }
 
@@ -34,12 +44,12 @@ namespace WaesApi.Controllers
         public IActionResult Get(int id)
         {
             // Returns 404 if Id hasn't been inserted in both directions. This prevents an unwanted 500 from raising to the user.
-            if(!CachingHelper.KeyExists(id)) { 
+            if(!repository.DiffExists(id)) { 
                 return new NotFoundObjectResult("Provided Id does not exist"); 
             }
 
-            string left = CachingHelper.Get(id, CacheDirection.LEFT);
-            string right = CachingHelper.Get(id, CacheDirection.RIGHT);    
+            string left = repository.Get(id, "left").Value;
+            string right = repository.Get(id, "right").Value;    
        
             /* Improvement: If this application did a heavier/more complex Diff, instead of calling the Diff on the GET, there could be an async/background worker
              * that ran whenever both directions were input, making the GET speed faster */

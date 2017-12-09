@@ -2,7 +2,10 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WaesApi.Data;
 using WaesApi.Middleware;
+using Microsoft.EntityFrameworkCore;
+using WaesApi.Repositories;
 
 namespace WaesApi
 {
@@ -18,6 +21,10 @@ namespace WaesApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            services.AddDbContext<ApiContext>( options => options.UseInMemoryDatabase("apistore"));
+            services.AddTransient<IDiffRepository,DiffRepository>();
+
             services.AddMvc();
         }
 
