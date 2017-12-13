@@ -27,10 +27,13 @@ namespace WaesApi.Data
 
         private void Execute()
         {
-            if (left.Equals(right))
+            if (left.Equals(right)) 
+            {
                 Result = "The compared strings are equal";
+                return;
+            }
 
-            if (left.Length.Equals(right.Length))
+            if (!left.Length.Equals(right.Length))
                 Result = "The compared strings have different sizes";
             else
             {

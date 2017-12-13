@@ -28,9 +28,10 @@ namespace WaesApi.Services
             return diffs;
         }
 
-        public DiffResult GetDiff(int diffId) {
+        public DiffResult GetDiff(int diffId) 
+        {
             var diffs = QueryDiffs(diffId);
             return new DiffResult(diffs.First(x=>x.Direction == "left").Value, diffs.First(x => x.Direction == "left").Value);
-         }
+        }
     }
 }

@@ -6,6 +6,7 @@ using WaesApi.Data;
 using WaesApi.Middleware;
 using Microsoft.EntityFrameworkCore;
 using WaesApi.Data.Repositories;
+using WaesApi.Services;
 
 namespace WaesApi
 {
@@ -24,6 +25,7 @@ namespace WaesApi
             
             services.AddDbContext<ApiContext>( options => options.UseInMemoryDatabase("apistore"));
             services.AddTransient<IDiffRepository,DiffRepository>();
+            services.AddTransient<IDiffService, DiffService>();
 
             services.AddMvc();
         }
