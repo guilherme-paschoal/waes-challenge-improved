@@ -12,7 +12,6 @@ namespace WaesApi.Middleware
     {
         public async Task Invoke(HttpContext httpContext)
         {
-
             httpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
             var ex = httpContext.Features.Get<IExceptionHandlerFeature>()?.Error;

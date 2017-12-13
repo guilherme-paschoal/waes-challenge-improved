@@ -7,9 +7,9 @@
   <ItemGroup>
     <Folder Include="Utils\" />
     <Folder Include="Middleware\" />
-    <Folder Include="Views\" />
     <Folder Include="Data\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
+    <Folder Include="Data\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Repositories\IRepository.cs" />
+    <Compile Remove="Data\Models.cs" />
+    <Compile Remove="Data\IUnitOfWork.cs" />
+    <Compile Remove="Data\UnitOfWork.cs" />
   </ItemGroup>
 </Project>

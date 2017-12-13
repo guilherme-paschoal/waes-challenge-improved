@@ -9,6 +9,6 @@ namespace WaesApi.Data
         {
         }
 
-        public DbSet<Diff> Contents { get; set; }
+        public DbSet<Diff> Diffs { get; set; }
     }
 }

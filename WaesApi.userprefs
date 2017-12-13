@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{129B6D62-65AD-4924-A97B-2CDA3641AAAD}|Default">
   <MonoDevelop.Ide.ItemProperties.WaesApi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WaesApi/Controllers/DiffController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WaesApi/Startup.cs">
     <Files>
-      <File FileName="WaesApi/Controllers/DiffController.cs" Line="60" Column="44" />
-      <File FileName="WaesApi/Repositories/IDiffRepository.cs" Line="9" Column="25" />
-      <File FileName="WaesApi/Repositories/DiffRepository.cs" Line="33" Column="10" />
+      <File FileName="WaesApi/Middleware/JsonExceptionMiddleware.cs" Line="26" Column="13" />
+      <File FileName="WaesApi/Startup.cs" Line="40" Column="63" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

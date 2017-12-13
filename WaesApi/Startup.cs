@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using WaesApi.Data;
 using WaesApi.Middleware;
 using Microsoft.EntityFrameworkCore;
-using WaesApi.Repositories;
+using WaesApi.Data.Repositories;
 
 namespace WaesApi
 {
